@@ -2,18 +2,22 @@
   "expo": {
     "name": "Financial Target",
     "slug": "Financial Target",
+    "scheme":"Financial Target",
     "version": "1.0.0",
-    "android":{
-      "package":"com.igoroliveira.financialtarget",
-      "edgeToEdgeEnabled":true,
-      "adaptiveIcon":{
-        "foregroundImage":"./assets/adaptive-icon.png",
-        "backgroundColor":"#3D44CD"
+    "android": {
+      "package": "com.igoroliveira.financialtarget",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
       }
     },
-    "ios":{
-      "bundleIdentifier":"com.igoroliveira.financialtarget",
-      "icon":"./assets/ios-icon.png"
-    }
+    "ios": {
+      "bundleIdentifier": "com.igoroliveira.financialtarget",
+      "icon": "./assets/ios-icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
