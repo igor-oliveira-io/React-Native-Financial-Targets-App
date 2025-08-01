@@ -1,4 +1,4 @@
-package com.financialtarget
+package com.igoroliveira.financialtarget
 
 import android.os.Build
 import android.os.Bundle
