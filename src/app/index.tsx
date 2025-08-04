@@ -4,7 +4,7 @@ import { router } from "expo-router"
 export default function Index() {
     return (
         <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-            <Text> Tela Inicial</Text>
+            <Text> Home</Text>
 
             <Button title="Nova Meta" onPress={() => router.navigate("/target")} />
         </View>
