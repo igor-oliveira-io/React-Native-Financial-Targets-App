@@ -2,7 +2,7 @@
   "expo": {
     "name": "Financial Target",
     "slug": "Financial Target",
-    "scheme":"Financial Target",
+    "scheme": "Financial Target",
     "version": "1.0.0",
     "android": {
       "package": "com.igoroliveira.financialtarget",
@@ -17,7 +17,8 @@
       "icon": "./assets/ios-icon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-font"
     ]
   }
 }
